@@ -203,13 +203,13 @@ footer {
 }
 @media screen and (max-width: 768px) {
   header {
-    padding: 30px;
+    padding: 5px 20px;
   }
   .wrapper {
-    padding: 15px 0;
+    padding: 5px 0;
   }
   .logo {
-    width: 150px;
+    width: 120px;
   }
   .welcome {
     padding: 0;
@@ -219,7 +219,11 @@ footer {
     width: 90%;
   }
   .welcome-title {
+    font-size: 25px;
     width: 100%;
+  }
+  .welcome-text{
+    font-size: 18px;
   }
   .welcome-img {
     text-align: center;
@@ -236,6 +240,9 @@ footer {
   }
   .partners-logo {
     width: 35%;
+  }
+  .partners-head-text{
+    width: 95%;
   }
   .partners-lorem-text {
     width: 95%;
@@ -256,7 +263,8 @@ footer {
   }
 
   .lorem-text-area {
-    width: 98%;
+    margin: 0;
+    width: 96%;
   }
   .team-members {
     justify-content: space-around;
@@ -268,8 +276,8 @@ footer {
     width: 60%;
   }
   .member-img {
-    width: 95%;
-    height: auto;
+    width: 100%;
+    height: 100%;
   }
   .team-lorem-text {
     width: 80%;
@@ -282,7 +290,7 @@ footer {
   }
   .nav-area i {
     display: block;
-    font-size: 42px;
+    font-size: 36px;
   }
   .social-network-icon-area {
     display: flex;
@@ -290,6 +298,7 @@ footer {
     gap: 10px;
   }
   .social-network-icon {
-    width: 20px;
+    width: 25px;
+    height: 25px;
   }
 }
