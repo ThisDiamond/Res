@@ -1,0 +1,260 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;400&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+}
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+main {
+  margin: 30px 0;
+  padding: 0 175px;
+}
+
+footer {
+  background-color: #74c69d;
+  margin: 30px 0;
+  padding: 50px 175px;
+  margin-bottom: 0;
+}
+
+.wrapper {
+  color: white;
+  padding: 30px 175px;
+  background-color: #74c69d;
+}
+.nav-area i {
+  display: none;
+}
+.nav {
+  list-style-type: none;
+  margin: 0;
+}
+.nav-item {
+  display: inline-block;
+  margin: 0 15px;
+  font-size: 19px;
+  font-weight: 500;
+}
+.logo {
+}
+.welcome {
+  margin: 30px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.welcome-text-area {
+  width: 35%;
+}
+.welcome-title {
+  margin: 0;
+  font-size: 32px;
+}
+.welcome-text {
+  font-size: 18px;
+}
+.explore {
+  padding: 12px 45px;
+  border: 0;
+  border-radius: 5px;
+  font-size: 19px;
+}
+
+.partners {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  text-align: center;
+  margin: 15px 0;
+}
+.partners-head-text {
+  margin: 0;
+  color: #74c69d;
+  text-transform: uppercase;
+}
+.partners-lorem-head {
+  margin: 25px;
+}
+.partners-lorem-text {
+  width: 60%;
+  margin: 0 auto;
+}
+.partners-logos {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 50px 0;
+}
+.partners-logo {
+}
+.partners-button {
+  background-color: #252525;
+  color: white;
+  margin: 0 auto;
+  padding: 12px 36px;
+  border-radius: 5px;
+  font-size: 19px;
+}
+
+.lorem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 30px 0;
+}
+.lorem-reverse {
+  flex-direction: row-reverse;
+}
+.lorem-img {
+}
+.lorem-text-area {
+  margin-left: 40px;
+  width: 50%;
+}
+.lorem-title {
+  width: 60%;
+}
+.lorem-text {
+  margin: 30px 0;
+}
+.lorem-button {
+  width: fit-content;
+  background-color: #252525;
+  color: white;
+  padding: 12px 45px;
+  border-radius: 5px;
+}
+.team {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  text-align: center;
+}
+.team-head-text {
+  color: #74c69d;
+  text-transform: uppercase;
+}
+.team-talents-head {
+  margin: 0px;
+}
+.team-lorem-text {
+  text-align: center;
+  width: 40%;
+  margin: 20px auto;
+}
+.team-members {
+  display: flex;
+  justify-content: space-between;
+}
+.team-member {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 20%;
+  padding: 15px;
+  border: 2px solid #cfcfcf;
+  border-radius: 5px;
+}
+.member-img {
+  width: 220px;
+}
+.member-username {
+  margin: 0;
+  margin-top: 25px;
+}
+.member-career {
+  color: #252525;
+}
+.team-button {
+  width: fit-content;
+  background-color: #252525;
+  color: white;
+  margin: 30px auto;
+  padding: 12px 45px;
+  border-radius: 5px;
+  font-size: 20px;
+}
+
+.social-network {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.social-network-icon {
+  margin: 0 10px;
+}
+.reserved {
+  font-size: 20px;
+  color: white;
+}
+
+@media screen and (max-width: 1366px) {
+}
+@media screen and (max-width: 1024px) {
+}
+@media screen and (max-width: 768px) {
+  header {
+  }
+  .wrapper {
+    padding: 30px;
+  }
+  .welcome {
+    padding: 0;
+    flex-direction: column-reverse;
+  }
+  .welcome-text-area {
+    width: 90%;
+  }
+  .welcome-title {
+    width: 100%;
+  }
+  .welcome-img {
+    width: 95%;
+  }
+  main {
+    padding: 30px;
+  }
+  .partners-logos {
+    margin: 25px 30px;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+  .partners-logo {
+    width: 30%;
+  }
+  .lorem {
+    flex-direction: column;
+  }
+  .lorem-text-area {
+    width: 95%;
+  }
+  .team-members {
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px 0;
+  }
+  .team-member {
+    width: 30%;
+  }
+  footer {
+    padding: 30px;
+  }
+  .nav {
+    display: none;
+  }
+  .nav-area i {
+    display: block;
+    font-size: 42px;
+  }
+}
