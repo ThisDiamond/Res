@@ -203,9 +203,10 @@ footer {
 }
 @media screen and (max-width: 768px) {
   header {
+    padding: 30px;
   }
   .wrapper {
-    padding: 30px;
+    padding: 15px 0;
   }
   .logo {
     width: 150px;
@@ -221,10 +222,11 @@ footer {
     width: 100%;
   }
   .welcome-img {
+    text-align: center;
     width: 95%;
   }
   main {
-    padding: 30px;
+    padding: 5px;
   }
   .partners-logos {
     margin: 25px 30px;
@@ -236,22 +238,25 @@ footer {
     width: 35%;
   }
   .partners-lorem-text {
-    width: 80%;
+    width: 95%;
   }
   .lorem {
     flex-direction: column;
   }
 
-  .lorem-title{
-
+  .lorem-title {
     width: 95%;
     font-size: 28px;
   }
-  .lorem-img {
-    width: 95%;
+  .lorem-img-area {
+    width: 96%;
   }
+  .lorem-img {
+    width: 100%;
+  }
+
   .lorem-text-area {
-    width: 95%;
+    width: 98%;
   }
   .team-members {
     justify-content: space-around;
@@ -264,6 +269,7 @@ footer {
   }
   .member-img {
     width: 95%;
+    height: auto;
   }
   .team-lorem-text {
     width: 80%;
