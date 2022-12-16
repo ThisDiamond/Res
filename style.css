@@ -242,6 +242,11 @@ footer {
     flex-direction: column;
   }
 
+  .lorem-title{
+
+    width: 95%;
+    font-size: 28px;
+  }
   .lorem-img {
     width: 95%;
   }
