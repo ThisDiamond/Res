@@ -207,6 +207,9 @@ footer {
   .wrapper {
     padding: 30px;
   }
+  .logo {
+    width: 150px;
+  }
   .welcome {
     padding: 0;
     flex-direction: column-reverse;
@@ -225,15 +228,22 @@ footer {
   }
   .partners-logos {
     margin: 25px 30px;
-    justify-content: flex-start;
+    justify-content: center;
     flex-wrap: wrap;
     gap: 30px;
   }
   .partners-logo {
-    width: 30%;
+    width: 35%;
+  }
+  .partners-lorem-text {
+    width: 80%;
   }
   .lorem {
     flex-direction: column;
+  }
+
+  .lorem-img {
+    width: 95%;
   }
   .lorem-text-area {
     width: 95%;
@@ -241,11 +251,17 @@ footer {
   .team-members {
     justify-content: space-around;
     align-items: center;
-    flex-wrap: wrap;
+    flex-direction: column;
     gap: 30px 0;
   }
   .team-member {
-    width: 30%;
+    width: 60%;
+  }
+  .member-img {
+    width: 95%;
+  }
+  .team-lorem-text {
+    width: 80%;
   }
   footer {
     padding: 30px;
@@ -256,5 +272,13 @@ footer {
   .nav-area i {
     display: block;
     font-size: 42px;
+  }
+  .social-network-icon-area {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  .social-network-icon {
+    width: 20px;
   }
 }
